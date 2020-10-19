@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+}
+
+h2 {
+    content: attr(data-text);
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+ul {
+    width: 100%;
+    background-color: rgb(95, 60, 60);
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    z-index: 1000;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    box-sizing: border-box;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.slider {
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+
+.price {
+    color: red;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.teamCard {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.btn-whatsapp {
+    background: url('img/wp.png') no-repeat left center;
+    padding-left: 20px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 211, 102);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-whatsapp:hover {
+    background-color: rgb(30, 163, 79);
+}
+
+.btn-facebook {
+    background: url('img/fb.png') no-repeat left center;
+    padding-left: 20px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: #3b5998;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-facebook:hover {
+    background-color: #1c3977;
+}
+
+.btn-ig {
+    background: url('img/ig.png') no-repeat left center;
+    padding-left: 20px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: #fb3958;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-ig:hover {
+    background-color: #b92a42;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 70px;
+    background-color: rgb(95, 60, 60);
+    color: white;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    font-size: 20px;
+}
+
+.lblContact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+.nameTitle{
+    font-size: 24px;
+    font-weight: 800;
+    color: navy;
+}
+
+#whoWe{
+    font-size: 24px ;
+}

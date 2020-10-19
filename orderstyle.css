@@ -1,0 +1,90 @@
+body {
+    background-image: url("img/signup-bg.jpg");
+}
+
+.container {
+    background-color: rgba(177, 241, 250, 0.623);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px !important;
+    border-radius: 7px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+}
+
+#orderChoice {
+    width: 50%;
+}
+
+#noOfItems {
+    width: 50%;
+}
+
+.button {
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    border: none;
+    background-image: -moz-linear-gradient(to left, #a874eb, #310dd4);
+    background-image: -ms-linear-gradient(to left, #a874eb, #310dd4);
+    background-image: -o-linear-gradient(to left, #a874eb, #310dd4);
+    background-image: -webkit-linear-gradient(to left, #a874eb, #310dd4);
+    background-image: linear-gradient(to left, #a874eb, #310dd4);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background-image: -moz-linear-gradient(to left, #8f48ec, #2202af);
+    background-image: -ms-linear-gradient(to left, #8f48ec, #2202af);
+    background-image: -o-linear-gradient(to left, #8f48ec, #2202af);
+    background-image: -webkit-linear-gradient(to left, #8f48ec, #2202af);
+    background-image: linear-gradient(to left, #8f48ec, #2202af);
+}
+
+th{
+    text-align: center;
+    
+}
+
+
+ul {
+    width: 100%;
+    background-color: rgb(95, 60, 60);
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    z-index: 1000;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    box-sizing: border-box;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
